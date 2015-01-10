@@ -10,7 +10,6 @@ int main(void) {
   while((scanf("%s", d + 1) != EOF)) {
     memset(acc, 0, sizeof acc);
     int l = strlen(d + 1);
-    // printf("%s %d\n", d + 1, l);
     int sum = 0;
     if(l == N) {
       for(int i = 1; i <= l; i++) {
